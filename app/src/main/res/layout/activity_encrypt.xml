@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncryptActivity">
+
+    <EditText
+        android:id="@+id/encrypt_prompt"
+        style="@style/TextStyle"
+
+        android:inputType="text"
+        android:hint="@string/encrypt_hint"
+        />
+
+    <TextView
+        android:id="@+id/shift_amount"
+        style="@style/TextStyle"
+
+        android:layout_below="@+id/encrypt_prompt"
+        android:text="@string/shift_amount_template"
+        />
+
+    <TextView
+        android:id="@+id/encryption_result"
+        style="@style/TextStyle"
+
+        android:layout_below="@+id/shift_amount"
+        android:text="encryption result filler"
+        />
+
+    <Button
+        android:id="@+id/encrypt_button"
+        style="@style/ButtonStyle"
+
+        android:layout_below="@id/encryption_result"
+        android:text="@string/encrypt"
+        android:onClick="encrypt"
+        />
+
+    <Button
+        android:id="@+id/go_back_button"
+        style="@style/ButtonStyle"
+
+        android:layout_below="@id/encrypt_button"
+        android:text="@string/go_back"
+        />
+
+</RelativeLayout>

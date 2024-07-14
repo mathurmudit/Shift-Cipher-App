@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">project3</string>
+    <string name="shift_hint">Enter a number 1—25</string>
+    <string name="set_shift">SET SHIFT</string>
+    <string name="shift_warning">NUMBER MUST BE BETWEEN 1 AND 25</string>
+
+    <string name="encrypt_hint">Enter a word to encrypt!</string>
+    <string name="shift_amount_template">Shift = </string>
+    <string name="encrypt">ENCRYPT</string>
+    <string name="go_back">GO BACK</string>
+</resources>
